@@ -15,7 +15,7 @@
 - **환자 수**: 600명
 - **이미지 수**: 780개 (평균 이미지 크기: 500x500 픽셀)
 - **클래스 분류**: normal, benign, malignant
-![]([train_data_loader(이미지 시각화).png](https://github.com/todn0320/breast_Ultrasound_image/blob/main/train_data_loader(%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8B%9C%EA%B0%81%ED%99%94).png))
+  ![](https://github.com/todn0320/breast_Ultrasound_image/blob/main/train_data_loader(%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%8B%9C%EA%B0%81%ED%99%94).png)
 
 ### 3. 필요 라이브러리 & 프로그램
 - Python 3.x
