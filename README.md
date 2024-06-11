@@ -15,6 +15,7 @@
 - **환자 수**: 600명
 - **이미지 수**: 780개 (평균 이미지 크기: 500x500 픽셀)
 - **클래스 분류**: normal, benign, malignant
+!(train_data_loader(이미지 시각화).png)
 
 ### 3. 필요 라이브러리 & 프로그램
 - Python 3.x
