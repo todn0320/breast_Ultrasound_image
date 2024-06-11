@@ -27,16 +27,19 @@
 - Matplotlib
 
 ## III. 모델 설명
-이 프로젝트에서는 총 여섯 개의 모델을 비교하여 최적의 분류 성능을 찾습니다.
+learning rate=0.001
+optimizer = Adam
+epochs = 50
+batch-size = 16
 
-| 모델 | 정확도 | 정밀도 | 재현율 | F1 점수 |
-|------|-------|--------|--------|---------|
-| 모델 1 | xx%  | xx%    | xx%    | xx%     |
-| 모델 2 | xx%  | xx%    | xx%    | xx%     |
-| 모델 3 | xx%  | xx%    | xx%    | xx%     |
-| 모델 4 | xx%  | xx%    | xx%    | xx%     |
-| 모델 5 | xx%  | xx%    | xx%    | xx%     |
-| 모델 6 | xx%  | xx%    | xx%    | xx%     |
+| 모델 | Test Accuracy | Test Loss |
+|------|-------|--------|
+| vit | 0.5785  | 0.9090 |
+| ResNet | 0.7934 | 0.6335 |
+| EfficientNet | 0.7769 | 0.9798 |
+| DenseNet | 0.8099 | 0.6052 |
+| InceptionV3 |  0.8347 | 0.4708 |
+| Swin Transformer | 0.6198 | 0.9027 |
 
 ## IV. 실험 결과
 (여기에 실험 결과를 상세히 기술하세요)
